@@ -1,0 +1,25 @@
+/* Make bullets smaller */
+ul li {
+  font-size: 0.9rem; /* slightly smaller */
+  line-height: 1.4;
+}
+
+/* Make sub-bullets even smaller */
+ul ul li {
+  font-size: 0.85rem;
+  margin-left: 0.8rem;
+}
+
+/* Improve spacing */
+ul, ol {
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+
+/* Optional: make top image round and center it nicely */
+.page img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 12px;
+  max-width: 200px;
+}
