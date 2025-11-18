@@ -30,3 +30,7 @@ ul, ol {
 .layout--single .page__content {
   max-width: 1000px;      /* your preferred width */
 }
+
+body {
+  background: red !important;
+}
