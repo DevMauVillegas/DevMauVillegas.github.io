@@ -1,13 +1,10 @@
-/* Make bullets smaller */
-ul li {
-  font-size: 0.9rem; /* slightly smaller */
-  line-height: 1.4;
+/* Override Minimal Mistakes bullet font size */
+.page__content ul li {
+  font-size: 0.9rem !important;
 }
 
-/* Make sub-bullets even smaller */
-ul ul li {
-  font-size: 0.85rem;
-  margin-left: 0.8rem;
+.page__content ul ul li {
+  font-size: 0.85rem !important;
 }
 
 /* Improve spacing */
@@ -22,4 +19,10 @@ ul, ol {
   margin: 0 auto;
   border-radius: 12px;
   max-width: 200px;
+}
+
+.page__content ul,
+.page__content ol {
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
 }
