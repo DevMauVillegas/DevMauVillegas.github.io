@@ -30,3 +30,38 @@ ul, ol {
 .layout--single .page__content {
   max-width: 1000px;      /* your preferred width */
 }
+
+/* === CV HEADER LAYOUT === */
+
+.cv-header {
+  display: flex;
+  align-items: center;     /* vertical alignment */
+  gap: 2rem;               /* space between photo and text */
+  margin-bottom: 2rem;
+}
+
+.cv-photo {
+  width: 140px;            /* adjust photo size here */
+  height: auto;
+  border-radius: 12px;
+}
+
+/* Name styling */
+.cv-name {
+  margin: 0;
+  font-size: 2.2rem;       /* bigger name */
+  font-weight: 700;
+}
+
+/* Occupation styling */
+.cv-title {
+  margin: 0.2rem 0 0 0;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #666;             /* subtle tone */
+}
+
+/* Make sure text never wraps under the photo */
+.cv-text {
+  flex: 1;
+}
