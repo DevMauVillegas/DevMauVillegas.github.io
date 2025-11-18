@@ -65,3 +65,20 @@ ul, ol {
 .cv-text {
   flex: 1;
 }
+
+/* Widen the main CV content */
+.layout--single .page__content {
+  max-width: 1100px;   /* default ~800px, increase to 1000-1100px */
+  margin-left: auto;    /* center content */
+  margin-right: auto;
+  padding-left: 1.5rem;  /* optional, for breathing space */
+  padding-right: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .layout--single .page__content {
+    max-width: 95%;      /* almost full width on mobile */
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
