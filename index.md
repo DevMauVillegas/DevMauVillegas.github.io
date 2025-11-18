@@ -6,11 +6,14 @@ layout: single
 author_profile: true
 ---
 
-![image.png](/assets/images/cv-image.png)
+<div class="cv-header">
+  <img src="/assets/images/cv-image.png" alt="Profile Icon" class="cv-photo">
 
-## Martin Villegas Garcia
-
-*Game Programmer*
+  <div class="cv-text">
+    <h1 class="cv-name">Martin Villegas Garcia</h1>
+    <h2 class="cv-title">Game Programmer</h2>
+  </div>
+</div>
 
 ---
 
