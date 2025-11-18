@@ -26,3 +26,7 @@ ul, ol {
   margin-top: 0.2rem;
   margin-bottom: 0.2rem;
 }
+
+.layout--single .page__content {
+  max-width: 1000px;      /* your preferred width */
+}
