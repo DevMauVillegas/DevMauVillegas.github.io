@@ -15,8 +15,6 @@ author_profile: true
   </div>
 </div>
 
----
-
 # Career History
 
 ### April 2023
