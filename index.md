@@ -17,11 +17,8 @@ author_profile: true
 
 # Career History
 
-### April 2023
-
-Current
-
-### Mon Co.
+## Mon Co.
+## April 2023 -> *Dec 2025*
 
 - **C++ Game Developer, Warden’s Ascent**
     - He joined the Programming team in the early stages of development, taking participation in technical design and implementation of the systems.
@@ -30,11 +27,8 @@ Current
 
 ---
 
-### Dec 2021
-
-Dec 2022
-
-### **Wildlife Studios**
+## **Wildlife Studios**
+## Dec 2021 -> *Dec 2022*
 
 - **Full Stack Game Developer: SiB Engineering**
     - Designated as Responsible Engineer for Limited Market Test preparations at Super Wow studio, successfully resolving technical issues under a critical schedule.
@@ -43,11 +37,8 @@ Dec 2022
 
 ---
 
-### Oct 2018
-
-Dec 2020
-
-### Globant
+## Globant
+## Oct 2018 -> *Dec 2020*
 
 - **C++ Game Developer: Phoenix Labs, Dauntless**
     - He developed new UI/UX features released into the game.
@@ -67,11 +58,8 @@ Dec 2020
 
 # Other roles and experiences
 
-### Dec 2020
-
-Dec 2021
-
-### Ascentio
+## Ascentio
+## Dec 2020 -> *Dec 2021*
 
 - Python Backend Developer: SABIA-Mar Satellite
     - Martin helped to unify and release the different modules of the satellite Ground Segment.
@@ -79,28 +67,26 @@ Dec 2021
 
 ---
 
-### Jan 2023
-
 ### Global Game Jam
-
+### Jan 2023
 - Martin attended alone, forming a multidisciplinary team and delivering a working game.
 
 ---
 
-Career summary
+## Career summary
 
 Experienced in developing gameplay logic with Unreal C++, creating game tools in Unity C#, and building backend services in Go. I have worked on various games across different platforms and development stages.
 
 From patching live operations to improving service architecture for pre-launch titles. I am dedicated to continuous learning and constantly strive to enhance the quality of my work.
 
-FORMAL EDUCATION
+## FORMAL EDUCATION
 
 - AD, Programming Technician
     - Epet N° 20 Neuquen, Argentina.
 - Computer Science. Incomplete Degree
     - UNC, FaMAF, Cordoba, Argentina.
 
-# Skills
+## Skills
 
 | **Hard Skills**                 | **Soft Skills**       | **Other Skills**     |
 | :-------                        | :--------             | :-------             |
