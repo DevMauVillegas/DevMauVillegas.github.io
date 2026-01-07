@@ -17,8 +17,8 @@ author_profile: true
 
 # Career History
 
-## Mon Co.
 ## April 2023 -> *Dec 2025*
+**Mon Co.**
 
 - **C++ Game Developer, Warden’s Ascent**
     - He joined the Programming team in the early stages of development, taking participation in technical design and implementation of the systems.
@@ -27,8 +27,8 @@ author_profile: true
 
 ---
 
-## **Wildlife Studios**
 ## Dec 2021 -> *Dec 2022*
+**Wildlife Studios**
 
 - **Full Stack Game Developer: SiB Engineering**
     - Designated as Responsible Engineer for Limited Market Test preparations at Super Wow studio, successfully resolving technical issues under a critical schedule.
@@ -37,8 +37,8 @@ author_profile: true
 
 ---
 
-## Globant
 ## Oct 2018 -> *Dec 2020*
+**Globant**
 
 - **C++ Game Developer: Phoenix Labs, Dauntless**
     - He developed new UI/UX features released into the game.
@@ -58,8 +58,8 @@ author_profile: true
 
 # Other roles and experiences
 
-## Ascentio
 ## Dec 2020 -> *Dec 2021*
+**Ascentio**
 
 - Python Backend Developer: SABIA-Mar Satellite
     - Martin helped to unify and release the different modules of the satellite Ground Segment.
@@ -67,8 +67,8 @@ author_profile: true
 
 ---
 
-### Global Game Jam
 ### Jan 2023
+**Global Game Jam**
 - Martin attended alone, forming a multidisciplinary team and delivering a working game.
 
 ---
