@@ -3,6 +3,7 @@ title: "Patterns: Command"
 categories:
   - Game Programming Patterns
   - Learning Content
+  - blog
 tags:
   - GameProgramming Patterns
   - Educational
