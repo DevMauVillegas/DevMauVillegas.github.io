@@ -88,5 +88,5 @@ ul, ol {
 }
 
 .page {
-  padding-inline-end: 150; /* or use a smaller value like 1em */
+  padding-inline-end: 50px; /* or use a smaller value like 1em */
 }
