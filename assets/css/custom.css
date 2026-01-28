@@ -86,3 +86,7 @@ ul, ol {
 .single {
   max-width: 1000px; /* increase from default ~750px */
 }
+
+.page {
+  padding-inline-end: 150; /* or use a smaller value like 1em */
+}
