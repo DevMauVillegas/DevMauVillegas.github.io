@@ -82,3 +82,7 @@ ul, ol {
     padding-right: 1rem;
   }
 }
+
+.single {
+  max-width: 1000px; /* increase from default ~750px */
+}

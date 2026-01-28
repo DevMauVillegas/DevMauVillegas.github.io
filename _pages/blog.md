@@ -2,7 +2,6 @@
 title: "Blog"
 permalink: /blog/
 layout: single
-author_profile: false
 ---
 
 {% assign filtered_posts = site.posts | where_exp: "post", "post.categories contains 'blog'" %}
