@@ -91,7 +91,15 @@ ul, ol {
   padding-inline-end: 0px; /* or use a smaller value like 1em */
 }
 
-.page__content .full-bleed {
-  width: 100vw;
-  margin-left: calc(50% - 50vw);
+/* FORCE markdown images to be large on selected pages */
+.full-image-page .page__content p > img {
+  display: block;
+  max-width: 100% !important;
+  width: 100% !important;
+  margin: 2rem auto;
+}
+
+/* Remove the artificial centering container */
+.full-image-page .page__content p {
+  max-width: none !important;
 }
