@@ -13,14 +13,6 @@ ul, ol {
   margin-bottom: 0.3rem;
 }
 
-/* Optional: make top image round and center it nicely */
-.page img {
-  display: block;
-  margin: 0 auto;
-  border-radius: 12px;
-  max-width: 200px;
-}
-
 .page__content ul,
 .page__content ol {
   margin-top: 0.2rem;
