@@ -19,7 +19,7 @@ It uses Steam services to connect players around the world as long as they have 
 
 ## Repository
 
-### [Look at Project on Github](https://github.com/DevMauVillegas/DeathmatchParty)
+### [Look at Project on Github](https://github.com/DevMauVillegas/DeathmatchParty){: target="_blank" rel="noopener noreferrer" }
 
 ## Index
 
