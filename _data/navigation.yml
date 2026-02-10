@@ -3,11 +3,7 @@ main:
     url: /
   - title: "Blog"
     url: /blog/
-  - title: "Documentation"
-    url: /documentation/
   - title: "Projects"
     url: /projects/
-  - title: "Posts"
-    url: /posts/
-  - title: "About"
+  - title: "About Martin"
     url: /about/

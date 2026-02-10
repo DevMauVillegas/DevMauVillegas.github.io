@@ -1,8 +1,12 @@
 ---
 permalink: /about/
-title: "About"
+title: "About Martin"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+## Carreer in Game development
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+In rough numbers, I could say, as of February 2026, that I harvest about 6 years of game development experience. The dates might have gaps and on different technologies, but in what videogame industry refers it would be about right.
+
+In spite of being interested in Videogames pretty much my whole life, it became a plausible opportunity around 2018, when I got hired in a training camp to learn proper C++ in the Gaming Studio of a large consultant company.
+
+The training was short, only a quarter long, but in that time I master C++ and started creating dumb games with SFML to be as close as possible to the code. The project is still vissible in the gitlab repository [HERE](https://gitlab.com/dev-mau-villegas/car-shooter). Is painfully old and probably terrible, but it used to work and it was the first attempt of making a videogame with code.
