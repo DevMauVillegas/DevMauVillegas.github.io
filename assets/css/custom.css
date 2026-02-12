@@ -95,3 +95,20 @@ ul, ol {
 .full-image-page .page__content p {
   max-width: none !important;
 }
+
+/* Increase author avatar size */
+.author__avatar img {
+  max-width: 150px !important;
+  width: 150px !important;
+  height: 150px !important;
+}
+
+/* Center avatar in sidebar */
+.author__avatar {
+  text-align: center;
+}
+
+/* Center entire author profile block */
+.author__content {
+  text-align: center;
+}
