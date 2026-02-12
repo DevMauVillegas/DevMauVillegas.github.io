@@ -107,3 +107,8 @@ ul, ol {
 .author__avatar {
   text-align: center;
 }
+
+/* Center avatar in sidebar */
+.author__name {
+  text-align: center;
+}
