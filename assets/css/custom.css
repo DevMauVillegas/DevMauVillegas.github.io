@@ -98,17 +98,12 @@ ul, ol {
 
 /* Increase author avatar size */
 .author__avatar img {
-  max-width: 150px !important;
-  width: 150px !important;
-  height: 150px !important;
+  max-width: 160px !important;
+  width: 160px !important;
+  height: 160px !important;
 }
 
 /* Center avatar in sidebar */
 .author__avatar {
-  text-align: center;
-}
-
-/* Center entire author profile block */
-.author__content {
   text-align: center;
 }
