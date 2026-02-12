@@ -2,8 +2,6 @@
 title: Martin Villegas Garcia
 email: Dev.Mau.Villegas@gmail.com
 logo: "/assets/images/mv-logo.png"
-favicon:
-  png: "/assets/images/mv-logo.png"
 description: >- # this means to ignore newlines until "baseurl:"
   Game Programmer
 github_username: DevMauVillegas
