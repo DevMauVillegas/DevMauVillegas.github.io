@@ -81,7 +81,9 @@ From patching live operations to improving service architecture for pre-launch t
 
 ## FORMAL EDUCATION
 
-- AD, Programming Technician
-    - Epet N° 20 Neuquen, Argentina.
-- Computer Science. Incomplete Degree
+- **BD, Computer Science**. _Incomplete Degree_
     - UNC, FaMAF, Cordoba, Argentina.
+- **AD, Programming Technician**
+    - Epet N° 20 Neuquen, Argentina.
+- **Videogame Development with Unreal Engine**
+    - UTN, Cordoba, Argentina
