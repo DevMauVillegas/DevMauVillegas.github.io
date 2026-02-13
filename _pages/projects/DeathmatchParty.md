@@ -7,53 +7,49 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Deathmatch party
-
-### Overview
+## Overview
 
 This is an unreal engine 5 online multiplayer FPS game.
 
 It uses Steam services to connect players around the world as long as they have a steam account.
 
----
-
 ## Repository
 
+<!--The nonsense after the link is so it opens in a new tab -->
 ### [Look at Project on Github](https://github.com/DevMauVillegas/DeathmatchParty){: target="_blank" rel="noopener noreferrer" }
 
 ## Index
 
-1. ### [Gameplay Mechanics](#gameplay)
+1. [**Gameplay Mechanics**](#gameplay)
 
-2. ### [Relevant Authoritative Logic](#authsystems)
+2. [**Relevant Authoritative Logic**](#authsystems)
 
-3. ### [Lag Controls](#lagcontrols)
+3. [**Lag Controls**](#lagcontrols)
 
-4. ### [Gameplay Ability System](#gassystems)
+4. [**Gameplay Ability System**](#gassystems)
 
-5. ### [Enemy AI](#enemyai)
+5. [**Enemy AI**](#enemyai)
 
 
 ## Gameplay Mechanics {#gameplay}
 
-* ### Fire
+* Fire
 
 ## Relevant Authoritative Logic {#authsystems}
 
-* ### Connecting to server and etc
+* Connecting to server and etc
 
 ## Lag Controls {#lagcontrols}
 
-* ### Recall thingy
+* Recall thingy
 
 ## Gameplay Ability System {#gassystems}
 
-* ### Buffs and stuff 
+* Buffs and stuff 
 
 ## Enemy AI {#enemyai}
 
-* ### Behaviour tree
-
+* Behaviour tree
 
 
 ![First image](/assets/images/DeathmatchParty/BigMap_Portfolio.png)
