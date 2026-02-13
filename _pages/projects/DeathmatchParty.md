@@ -1,5 +1,6 @@
 ---
 title: "Deathmatch Party"
+image: "/assets/images/DeathmatchParty.gif"
 layout: single
 permalink: /projects/Deathmatch-Party/
 author_profile: false

@@ -6,6 +6,7 @@ permalink: /projects/
 {% assign projects = site.pages  | where_exp: "page", "page.path contains '_pages/projects/'" %}
 
 {% for post in projects %}
-  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-  <p>{{ post.description }}</p>
+  <a href="{{ post.url }}">
+    <img src="{{ post.image }}" alt="{{ post.title }}">
+  </a>
 {% endfor %}
