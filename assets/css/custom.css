@@ -11,10 +11,6 @@ ul, ol {
   margin-bottom: 0.2rem;
 }
 
-.layout--single .page__content {
-  max-width: 1000px;      /* your preferred width */
-}
-
 /* === CV HEADER LAYOUT === */
 
 .cv-header {
@@ -55,6 +51,7 @@ ul, ol {
   max-width: 1100px;   /* default ~800px, increase to 1000-1100px */
   margin-left: auto;    /* center content */
   margin-right: auto;
+  margin-top: 1.1rem;
   padding-left: 1.5rem;  /* optional, for breathing space */
   padding-right: 1.5rem;
 }
@@ -116,6 +113,11 @@ ul, ol {
 
 .site-title {
   font-size: 1.4rem;
+}
+
+.visible-links {
+  font-size: 1.1rem;
+  font-weight: 500;
 }
 
 /* Reduce overall base font size */
