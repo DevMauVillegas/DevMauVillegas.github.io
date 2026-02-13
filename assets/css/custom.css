@@ -112,3 +112,8 @@ ul, ol {
 .author__name {
   text-align: center;
 }
+
+/* Reduce overall base font size */
+html {
+  font-size: 14px;   /* Default is ~16px */
+}
