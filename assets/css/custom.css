@@ -114,6 +114,10 @@ ul, ol {
   font-size: 1.5rem;
 }
 
+.site-title {
+  font-size: 1.4rem;
+}
+
 /* Reduce overall base font size */
 html {
   font-size: 16px;   /* Default is ~16px */
