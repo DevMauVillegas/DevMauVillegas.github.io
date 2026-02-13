@@ -1,10 +1,10 @@
 /* Override Minimal Mistakes bullet font size */
 .page__content ul li {
-  font-size: 0.9rem !important;
+  /*font-size: 0.9rem !important;*/
 }
 
 .page__content ul ul li {
-  font-size: 0.85rem !important;
+  /*font-size: 0.85rem !important;*/
 }
 
 /* Improve spacing */
@@ -41,14 +41,14 @@ ul, ol {
 /* Name styling */
 .cv-name {
   margin: 0;
-  font-size: 2.2rem;       /* bigger name */
+  /*font-size: 2.2rem;*/       /* bigger name */
   font-weight: 700;
 }
 
 /* Occupation styling */
 .cv-title {
   margin: 0.2rem 0 0 0;
-  font-size: 1.3rem;
+  /*font-size: 1.3rem;*/
   font-weight: 400;
   color: #666;             /* subtle tone */
 }
