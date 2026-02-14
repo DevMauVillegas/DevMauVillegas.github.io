@@ -1,7 +1,7 @@
 ---
 title: "Deathmatch Party - Combat Component"
 layout: single
-permalink: /projects/Deathmatch-Party/Combat-Component/
+permalink: /projects/deathmatch-party/combat-component/
 author_profile: false
 nav_exclude: true
 search_exclude: true
