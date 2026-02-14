@@ -5,7 +5,9 @@ permalink: /projects/
 
 ## Select the project you want to check out
 
-{% assign projects = site.pages  | where_exp: "page", "page.path contains '_pages/projects/'", "page.image contains '/assets/images/'" %}
+{% assign projects = site.pages 
+  | where_exp: "page", "page.path contains '_pages/projects/' and page.image" 
+%}
 
 {% for post in projects %}
   <a href="{{ post.url }}">

@@ -1,6 +1,5 @@
 ---
 title: "Deathmatch Party - Combat Component"
-image: ""
 layout: single
 permalink: /projects/Deathmatch-Party/Combat-Component/
 author_profile: false
