@@ -32,9 +32,35 @@ It uses Steam services to connect players around the world as long as they have 
 5. [**Enemy AI**](#enemyai)
 
 
+Combat component
+
+
 ## Gameplay Mechanics {#gameplay}
 
-* Fire
+
+### [-> Combat Component <-](/_pages/projects/DeathmatchParty/CombatComponent.md)
+
+`UCombatComponent` is a replicated `UActorComponent` responsible for handling all combat-related logic for a character, including:
+
+- Weapon equipping and swapping
+
+- Firing logic (Projectile, Hitscan, Shotgun)
+
+- Reloading
+
+- Aiming and FOV interpolation
+
+- Crosshair spread computation
+
+- Ammo management
+
+- Multiplayer synchronization (Server / Multicast RPCs)
+
+- HUD updates
+
+It centralizes combat logic outside the character class, keeping the character focused on movement and animation.
+
+---
 
 ## Relevant Authoritative Logic {#authsystems}
 
