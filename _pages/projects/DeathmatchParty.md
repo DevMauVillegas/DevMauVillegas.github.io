@@ -38,7 +38,7 @@ Combat component
 ## Gameplay Mechanics {#gameplay}
 
 
-### [-> Combat Component <-](/projects/deathmatch-Party/combat-component/)
+### [-> Combat Component <-](/projects/deathmatch-party/combat-component/)
 
 `UCombatComponent` is a replicated `UActorComponent` responsible for handling all combat-related logic for a character, including:
 
