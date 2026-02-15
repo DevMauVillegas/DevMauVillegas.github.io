@@ -11,6 +11,7 @@ main:
 
 projects:
   - title: "Projects"
+    url: /projects/
     children:
       - title: "Deatchmatch Party"
-        url: /projects/
+        url: /projects/deatchmatch-party/
