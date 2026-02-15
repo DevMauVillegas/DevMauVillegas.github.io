@@ -2,6 +2,8 @@
 title: "Blog"
 permalink: /blog/
 layout: single
+sidebar:
+  nav: "projects"
 ---
 
 {% assign filtered_posts = site.posts | where_exp: "post", "post.categories contains 'blog'" %}

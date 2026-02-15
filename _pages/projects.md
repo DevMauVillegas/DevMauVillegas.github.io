@@ -1,6 +1,8 @@
 ---
 title: "Projects"
 permalink: /projects/
+sidebar:
+  nav: "projects"
 ---
 
 ## Select the project you want to check out
