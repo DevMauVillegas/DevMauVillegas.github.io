@@ -33,9 +33,6 @@ It uses Steam services to connect players around the world as long as they have 
 5. [**Enemy AI**](#enemyai)
 
 
-Combat component
-
-
 ## Gameplay Mechanics {#gameplay}
 
 
