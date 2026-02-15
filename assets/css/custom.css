@@ -108,7 +108,11 @@ ul, ol {
 }
 
 .author__urls {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
+}
+
+.nav__items {
+  font-size: 2rem;
 }
 
 .site-title {
