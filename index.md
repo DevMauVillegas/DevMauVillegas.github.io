@@ -1,6 +1,8 @@
 ---
 layout: single
 author_profile: true
+sidebar:
+  nav: "projects"
 ---
 
 <div class="cv-header">
