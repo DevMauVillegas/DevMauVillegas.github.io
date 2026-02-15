@@ -125,6 +125,7 @@ ul, ol {
 .visible-links {
   font-size: 1.1rem;
   font-weight: 500;
+  color: red;
 }
 
 /* Reduce overall base font size */
