@@ -13,5 +13,5 @@ projects:
   - title: "Projects"
     url: /projects/
     children:
-      - title: "Deatchmatch Party"
+      - title: "Deathmatch Party"
         url: /projects/deathmatch-party/
