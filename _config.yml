@@ -11,15 +11,21 @@ search: true
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
+
 # Allow raw HTML when using CommonMark on GitHub Pages
 commonmark:
   options:
     unsafe: true
+
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+breadcrumbs: true
+breadcrumb_home_label : "Home"
+breadcrumb_separator  : " > "
 
 sass:
   style: expanded
@@ -27,18 +33,6 @@ sass:
 include:
   - _pages
   - assets/css
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
 
 # Plugins (previously gems:)
 plugins:
