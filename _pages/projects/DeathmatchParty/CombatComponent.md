@@ -8,8 +8,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-{% include breadcrumbs.html %}
-
 ## Architectural Responsibilities
 
 ### Ownership Model
