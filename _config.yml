@@ -11,6 +11,10 @@ search: true
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
+# Allow raw HTML when using CommonMark on GitHub Pages
+commonmark:
+  options:
+    unsafe: true
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
