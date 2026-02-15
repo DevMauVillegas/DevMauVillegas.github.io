@@ -1,6 +1,6 @@
 ---
 title: "Deathmatch Party"
-image: "/assets/images/DeathmatchParty.gif"
+image: "/assets/images/DeathmatchParty/DeathmatchParty.gif"
 permalink: /projects/deathmatch-party/
 layout: single
 nav_exclude: true

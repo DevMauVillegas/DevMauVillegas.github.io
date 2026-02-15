@@ -11,5 +11,8 @@ permalink: /projects/
   <a href="{{ post.url }}">
   <img src="{{ post.image }}" alt="{{ post.title }}">
   </a>
+
+---
+
 {% endif %}
 {% endfor %}
