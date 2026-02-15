@@ -6,6 +6,8 @@ permalink: /projects/deathmatch-party/
 author_profile: false
 nav_exclude: true
 search_exclude: true
+sidebar:
+  nav: "projects"
 ---
 
 ## Overview

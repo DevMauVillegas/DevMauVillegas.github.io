@@ -7,3 +7,10 @@ main:
     url: /projects/
   - title: "About Martin"
     url: /about/
+
+
+projects:
+  - title: "Projects"
+    children:
+      - title: "Deatchmatch Party"
+        url: /projects/
