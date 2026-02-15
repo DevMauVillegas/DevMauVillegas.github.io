@@ -1,14 +1,15 @@
 ---
 title: "Deathmatch Party"
 image: "/assets/images/DeathmatchParty.gif"
-layout: single
 permalink: /projects/deathmatch-party/
+layout: single
 nav_exclude: true
 search_exclude: true
 sidebar:
   nav: "projects"
 ---
 
+> **PERSONAL PROJECT**
 ## Overview
 
 This is an unreal engine 5 online multiplayer FPS game.

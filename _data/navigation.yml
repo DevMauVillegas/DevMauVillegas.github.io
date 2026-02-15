@@ -15,3 +15,7 @@ projects:
     children:
       - title: "Deathmatch Party"
         url: /projects/deathmatch-party/
+        - title: "Warden's Ascent"
+        url: /projects/wardensascent/
+        - title: "Dauntless"
+        url: /projects/dauntless/
