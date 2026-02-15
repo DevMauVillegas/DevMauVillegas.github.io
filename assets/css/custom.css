@@ -114,18 +114,17 @@ ul, ol {
 
 .nav__list .nav__items {
   font-size: 2.0rem;
-  color: palevioletred;
+  color: royalblue;
 }
 
 .site-title {
   font-size: 1.5rem;
-  color: red;
+  color: royalblue;
 }
 
 .visible-links {
   font-size: 1.1rem;
   font-weight: 500;
-  color: red;
 }
 
 /* Reduce overall base font size */
