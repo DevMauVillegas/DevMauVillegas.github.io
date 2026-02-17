@@ -17,17 +17,21 @@ sidebar:
 # Career History
 
 ## April 2023 -> *Dec 2025*
-**Mon Co.**
+### **Mon Co.**
+**Full Remote. Kuala Lumpur, Malaysia**
 
 - **C++ Game Developer, Warden’s Ascent**
-    - He joined the Programming team in the early stages of development, taking participation in technical design and implementation of the systems.
-    - Martin took ownership of many campaign systems allowing the game to keep track of players progression through the single player campaign.
-    - He built a climbing system for the playable characters allowing customizable exploration design for other teams.
+    - Joined the Programming team in the early stages of development, taking participation in technical design and implementation of the systems.
+    - Had ownership of many campaign systems allowing the game to keep track of players progression through the single player campaign.
+    - Built a climbing system for the playable characters allowing customizable exploration design for other teams.
+    - Implemented a system using Unreal Engine's Gameplay Ability System allowing designers to modify and customize combat in campaign or PVP battles.
+    - Extended and maintained the system used to update and sync backend information based on game settings like rewards or campaign levels order.
 
 ---
 
 ## Dec 2021 -> *Dec 2022*
-**Wildlife Studios**
+### **Wildlife Studios**
+**Full Remote. Sao Paulo, Brazil**
 
 - **Full Stack Game Developer: SiB Engineering**
     - Designated as Responsible Engineer for Limited Market Test preparations at Super Wow studio, successfully resolving technical issues under a critical schedule.
@@ -37,28 +41,27 @@ sidebar:
 ---
 
 ## Oct 2018 -> *Dec 2020*
-**Globant**
+### **Globant**
+**Cordoba, Argentina**
 
 - **C++ Game Developer: Phoenix Labs, Dauntless**
-    - He developed new UI/UX features released into the game.
-    - Has diagnosed, reported and solved bugs inside and outside the scope of his team.
-    - Moved and ordered several blueprints turning them into C++ code.
-    - Martin was added to the game credits
+    - Developed new UI/UX features released in the game.
+    - Diagnosed, reported and solved bugs inside and outside the scope of his team.
+    - Moved and refactor several blueprints turning them into C++ code.
+    - Was added to the game credits.
 - **C++ Developer: Autodesk Genuine Service**
-    - Martin developed internal tools that were used by Autodesk clients as well.
-    - Martin onboarded the client's team before finishing the hands on client release.
+    - Released new versions of the software through the CI covering all the steps of the deploy process.
+    - Trained the new team showing the structure of the system along with the testing suite before leaving the project in hands of the client.
 - **C++ Developer**
-    - Martin obtained great results finishing the C++ UGrow Globant course
-    - He was designated as Responsible Engineer for the Limited Market Test preparations of one of the studios (Super Wow), solving technical problems under a critic schedule.
-    - Martin assisted a diverse group of Game Studios to implement and integrate Wildlife's internal systems and game tools into their own games.
-    - He proofread and integrated into clean projects several internal modules in  order to share feedback and improve functionality of internal products.
+    - Learned the concepts and principles of SOLID and the most used pattern designs to apply them into two games. One of them with a graphic interface using the SFML C++ library.
 
 ---
 
 # Other roles and experiences
 
 ## Dec 2020 -> *Dec 2021*
-**Ascentio**
+### **Ascentio**
+**Cordoba, Argentina**
 
 - Python Backend Developer: SABIA-Mar Satellite
     - Martin helped to unify and release the different modules of the satellite Ground Segment.
