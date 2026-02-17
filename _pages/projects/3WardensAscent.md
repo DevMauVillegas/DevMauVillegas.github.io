@@ -1,6 +1,6 @@
 ---
 title: "Warden's Ascent"
-image: "/assets/images/wardensascent.gif"
+image: "/assets/images/gamelogo.png"
 permalink: /projects/wardens-ascent/
 layout: single
 nav_exclude: true
