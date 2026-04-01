@@ -1,6 +1,8 @@
 ---
 title: "Patterns: Command"
 description: "Overview and explanation about the Command pattern oriented to videogames"
+sidebar:
+  nav: "projects"
 categories:
   - Game Programming Patterns
   - Learning Content

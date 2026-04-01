@@ -1,6 +1,8 @@
 ---
 permalink: /about/
 title: "About Martin"
+sidebar:
+  nav: "projects"
 ---
 
 ## Carreer in Game development

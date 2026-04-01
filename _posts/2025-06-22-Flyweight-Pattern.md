@@ -1,6 +1,8 @@
 ---
 title: "Patterns: Flyweight"
 description: "Overview and explanation about the Flyweight pattern oriented to videogames"
+sidebar:
+  nav: "projects"
 categories:
   - Game Programming Patterns
   - Learning Content
