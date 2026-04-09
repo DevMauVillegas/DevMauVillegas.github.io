@@ -59,7 +59,16 @@ It's owned by `APartyCharacter`; created in the character constructor and wired 
 
 ---
 
+## [-> Gameplay Ability/Effect System Usage <-](/projects/deathmatch-party/gameplay-ability-system/)
+#### The project uses the Gameplay Ability System to execute some of the gameplay events such as:
 
+* Damage
+* Buffs
+* Shields
+
+---
+
+# Details
 
 ![First image](/assets/images/DeathmatchParty/BigMap_Portfolio.png)
 

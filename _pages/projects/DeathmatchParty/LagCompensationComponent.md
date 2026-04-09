@@ -1,5 +1,5 @@
 ---
-title: "Deathmatch Party - Combat Component"
+title: "Deathmatch Party - Lag Compensation Component"
 layout: single
 permalink: /projects/deathmatch-party/lag-compensation-component/
 nav_exclude: true
@@ -8,7 +8,7 @@ sidebar:
   nav: "projects"
 ---
 
-## Lag Compensation Component — Overview
+# Lag Compensation Component — Overview
 
 ### Key data structures
 
