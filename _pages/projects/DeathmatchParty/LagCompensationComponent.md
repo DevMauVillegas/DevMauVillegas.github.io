@@ -10,11 +10,9 @@ sidebar:
 
 ## Lag Compensation Component — Overview
 
----
-
 ### Key data structures
 
-- `FBoxInformation`: Location, rotation, extent for a single hitbox.
+- #### `FBoxInformation`: Location, rotation, extent for a single hitbox.
     ```cpp
     USTRUCT(BlueprintType)
     struct FBoxInformation
@@ -32,7 +30,7 @@ sidebar:
     };
     ```
 
-- `FFramePackage`: Timestamp, map of hitbox `FName` → `FBoxInformation`, and `APartyCharacter*`.
+-  #### `FFramePackage`: Timestamp, map of hitbox `FName` → `FBoxInformation`, and `APartyCharacter*`.
     ```cpp
     USTRUCT(BlueprintType)
     struct FFramePackage
@@ -50,7 +48,7 @@ sidebar:
     };
     ```
 
-- `FrameHistory`: DoubleLinkedList inside the `ULagCompensationComponent` clss storing recent frames; trimmed to `MaxRecordTime`.
+- #### `FrameHistory`: DoubleLinkedList inside the `ULagCompensationComponent` clss storing recent frames; trimmed to `MaxRecordTime`.
     ```cpp
     TDoubleLinkedList<FFramePackage> FrameHistory;
 
@@ -85,6 +83,8 @@ sidebar:
 6.	Server ResetBoxes(...) to the cached frame and re-enables mesh collision.
 7.	If a hit is confirmed, the server applies damage via UGameplayStatics::ApplyDamage(...) using controller/weapon info (implemented inside the _Implementation methods).
 
+---
+
 ### Files and call sites in this project
 
 - Component creation / wiring:
@@ -107,12 +107,16 @@ sidebar:
 - Hit-scan usage:
     - ULagCompensationComponent::ServerSideRewind / ConfirmHit — supports hit-scan validation if you call ServerScoreRequest. (Search your project for where hit-scan weapons call this server RPC; shotgun/projectile examples above are explicit.)
 
+---
+
 ### Important implementation notes / behavior details (quick)
 - MaxRecordTime defaults to 0.5s; frames older than that are discarded from FrameHistory.
 - Rewind works by moving UBoxComponent hitboxes to historical transforms, temporarily disabling `/ altering mesh collision to avoid mesh-level hits interfering with the test.
 - Projectile paths validated using UGameplayStatics::PredictProjectilePath with the supplied InitialVelocity.
 - Shotgun logic counts headshots vs body shots per target (maps returned in FShotgunServerSideRewindResult).
 - RPCs are server-reliable — the authoritative server performs final validation and applies damage.
+
+---
 
 ### How to enable / use in your weapons
 - Set AWeapon::bUseServerSideRewind = true for weapons that should use server-side rewind.
@@ -123,6 +127,8 @@ sidebar:
         - HitTime — use controller server time minus estimated network one-way delay (GetServerTime() - SingleTripTime).
     - For shotgun / multi-hit weapons: build the pellet HitTargets array client-side and call ShotgunServerScoreRequest(...).
     - For hitscan: call ServerScoreRequest(...) with TraceStart, HitLocation, and computed HitTime.
+
+---
 
 ### Where to look if behavior is wrong / debugging tips
 - Check recorded frames in FrameHistory and timestamps inserted by SaveFramePackage.
