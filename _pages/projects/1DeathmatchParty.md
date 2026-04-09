@@ -21,23 +21,11 @@ It uses Steam services to connect players around the world as long as they have 
 <!--The nonsense after the link is so it opens in a new tab -->
 ### [Look at Project on Github](https://github.com/DevMauVillegas/DeathmatchParty){: target="_blank" rel="noopener noreferrer" }
 
-## Index
 
-1. [**Gameplay Mechanics**](#gameplay)
-
-2. [**Relevant Authoritative Logic**](#authsystems)
-
-3. [**Lag Controls**](#lagcontrols)
-
-4. [**Gameplay Ability System**](#gassystems)
-
-5. [**Enemy AI**](#enemyai)
+---
 
 
-## Gameplay Mechanics {#gameplay}
-
-
-### [-> Combat Component <-](/projects/deathmatch-party/combat-component/)
+## [-> Combat Component <-](/projects/deathmatch-party/combat-component/)
 
 `UCombatComponent` is a replicated `UActorComponent` responsible for handling all combat-related logic for a character, including:
 
@@ -61,21 +49,16 @@ It centralizes combat logic outside the character class, keeping the character f
 
 ---
 
-## Relevant Authoritative Logic {#authsystems}
 
-* Connecting to server and etc
+## [-> Lag Compensation Component <-](/projects/deathmatch-party/lag-compensation-component/)
 
-## Lag Controls {#lagcontrols}
+### Purpose:
+Enable server-side rewind to fairly validate hits under client latency by recording historical hitbox transforms and rewinding hit collision checks to a player’s past pose.
 
-* Recall thingy
+It's owned by `APartyCharacter`; created in the character constructor and wired in `PostInitializeComponents`.
 
-## Gameplay Ability System {#gassystems}
+---
 
-* Buffs and stuff 
-
-## Enemy AI {#enemyai}
-
-* Behaviour tree
 
 
 ![First image](/assets/images/DeathmatchParty/BigMap_Portfolio.png)

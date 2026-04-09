@@ -1,7 +1,7 @@
 ---
 title: "Deathmatch Party - Combat Component"
 layout: single
-permalink: /projects/deathmatch-party/combat-component/
+permalink: /projects/deathmatch-party/lag-compensation-component/
 nav_exclude: true
 search_exclude: true
 sidebar:
@@ -9,11 +9,6 @@ sidebar:
 ---
 
 ## Lag Compensation Component — Overview
-
-### Purpose:
-Enable server-side rewind to fairly validate hits under client latency by recording historical hitbox transforms and rewinding hit collision checks to a player’s past pose.
-
-It's owned by `APartyCharacter`; created in the character constructor and wired in `PostInitializeComponents`.
 
 ---
 
