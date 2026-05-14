@@ -1,6 +1,7 @@
 ---
 title: "Deathmatch Party"
 image: "/assets/images/DeathmatchParty/DeathmatchParty.gif"
+description: "Personal Project: Multiplayer shooter game"
 permalink: /projects/deathmatch-party/
 layout: single
 nav_exclude: true

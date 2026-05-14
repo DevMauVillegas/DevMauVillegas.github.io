@@ -1,6 +1,7 @@
 ---
 title: "Warden's Ascent"
 image: "/assets/images/WardensAscent/gamelogo.png"
+description: "Published: PvP turn based combat game, mobile"
 permalink: /projects/wardens-ascent/
 layout: single
 nav_exclude: true
