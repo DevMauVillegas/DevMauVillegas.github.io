@@ -5,7 +5,7 @@ sidebar:
   nav: "projects"
 ---
 
-## Select the project you want to check out
+# Select the project you want to check out
 
 
 {% for post in site.pages %}
