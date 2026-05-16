@@ -10,7 +10,9 @@ sidebar:
 
 {% for post in site.pages %}
 {% if post.url contains '/projects/' and post.image %}
-### {{ post.description }}
+## <a href="{{ post.title }}">
+- ### Project type: {{post.type }}
+- ### {{ post.description }}
 <a href="{{ post.url }}">
 <img src="{{ post.image }}" alt="{{ post.title }}">
 </a>
