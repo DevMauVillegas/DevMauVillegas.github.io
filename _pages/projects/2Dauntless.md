@@ -16,7 +16,7 @@ sidebar:
 
 ## Project: Dauntless
 
-![Dauntless Picture](/assets/images/Dauntless/Dauntless-Game-screenshot-1.jpg)
+![Dauntless Picture](/assets/images/Dauntless/gamelogo.png)
 
 ### Role Overview
 
