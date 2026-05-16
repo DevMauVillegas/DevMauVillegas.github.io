@@ -2,7 +2,7 @@
 title: "Warden's Ascent"
 type: "Published Title"
 image: "/assets/images/WardensAscent/gamelogo.png"
-description: "Published: PvP turn based combat game, mobile"
+description: "PvP turn based combat game and monster collector, mobile"
 permalink: /projects/wardens-ascent/
 layout: single
 nav_exclude: true

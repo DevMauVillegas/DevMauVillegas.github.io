@@ -2,7 +2,7 @@
 title: "Deathmatch Party"
 type: "Personal Project"
 image: "/assets/images/DeathmatchParty/DeathmatchParty.gif"
-description: "Personal Project: Multiplayer shooter game"
+description: "Multiplayer shooter game with different weapons, skills and game modes"
 permalink: /projects/deathmatch-party/
 layout: single
 nav_exclude: true
