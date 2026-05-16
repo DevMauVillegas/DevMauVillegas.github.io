@@ -1,6 +1,6 @@
 ---
 title: "Dauntless"
-image: "/assets/images/Dauntless/Dauntless-Game-screenshot-1.jpg"
+image: "/assets/images/Dauntless/gamelogo.png"
 description: "Published: Multiplayer Hunter game, multiplatform"
 permalink: /projects/dauntless/
 layout: single
