@@ -102,6 +102,8 @@ Implemented a combat customization system leveraging Unreal Engine’s Gameplay 
 
 This system allowed combat tuning without deep code changes and provided a flexible foundation for content iteration.
 
+![Dauntless Picture](/assets/images/WardensAscent/combat.png){: style="display:block; margin:0 auto; max-width:100%;" }
+
 ## Backend Synchronization System
 
 Extended and maintained systems responsible for syncing gameplay configuration with backend-defined settings.
