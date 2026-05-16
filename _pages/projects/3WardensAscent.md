@@ -16,6 +16,8 @@ sidebar:
 
 ## Project: Warden’s Ascent
 
+![Dauntless Picture](/assets/images/WardensAscent/gamelogo.png)
+
 ### Role Overview
 
 Joined the programming team during the early stages of development, contributing to the technical design and implementation of core gameplay and progression systems.
