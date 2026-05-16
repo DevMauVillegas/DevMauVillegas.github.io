@@ -52,11 +52,12 @@ In this period I knew I should be more proficient at game development and coding
 
 The result of this was a more rounded project that until today I want to turn into a bigger game. At the moment is just about opening doors in expense of one's humanity. But I promise myself it can be an amazing dungeon crawler.
 
-[ Insert link to the Spontaneous house here ]
+- [Spontaneous House Gitlab Repo](https://gitlab.com/dev-mau-villegas/spontaneoushouse){: target="_blank" rel="noopener noreferrer" }
 
-At the same time and in order to widen the capabilities a little more, I learned a thing and a half about Unity and C#. Like at the beginning of the beginning I followed a few online courses to learn the basics. I managed to make a game about shooting zombies that's cleverly called Zombie Shooter.
 
-[ Insert link of the zombie shooter here ]
+At the same time and in order to widen the capabilities a little more, I learned a thing and a half about Unity and C#. Like at the beginning of the beginning I followed a few online courses to learn the basics. I managed to make a game about shooting zombies that's cleverly called Zombie Nation.
+
+- [Zombie Nation Gitlab Repo](https://gitlab.com/dev-mau-villegas/Zombie-Nation){: target="_blank" rel="noopener noreferrer" }
 
 ---
 
