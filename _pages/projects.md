@@ -6,8 +6,11 @@ sidebar:
 ---
 
 # Select the project you want to check out
-
-
+  
+  
+---
+  
+  
 {% for post in site.pages %}
 {% if post.url contains '/projects/' and post.image %}
 # <a href="{{ post.url }}">{{ post.title }}</a>
