@@ -15,7 +15,7 @@ tags:
 
 # Observer Pattern
 
-Observer is one of the most widely used and widely known original Gang of Four patterns. 
+The Observer pattern is one of the original Gang of Four design patterns, and it is both widely known and widely used.
 
 ### Original Programming Patterns definition
 
@@ -28,9 +28,9 @@ Observer is one of the most widely used and widely known original Gang of Four p
 Wikipedia section is a little summarized to reduce text bloating.
 
 
-So, in a nutshell, this pattern covers the need to send notifications between different objects without coupling them. One object broadcasts to the sky anything it needs and whoever is listening will receive and do what it needs with that information.
+So, in a nutshell, this pattern covers the need to send notifications between different objects without coupling them. One object broadcasts a notification, and any listener that cares can receive it and act on that information.
 
-Consider that if anyone is listening, it is because they actually need to.
+Consider that listeners subscribe only when they actually need that information.
 
 ---
 
@@ -47,7 +47,7 @@ void Physics::updateEntity(Entity& entity) {
     if (wasOnSurface && !entity.isOnSurface()) {
         // Entity was on the ground, but after update is not anymore.
         // We notify that in case anyone cares
-        notify(entity, EVENT_START_FALL)
+        notify(entity, EVENT_START_FALL);
     }
 }
 ```
@@ -101,7 +101,7 @@ private:
 
 private:
     void notify(const Entity& entity, Event event) {
-        for (int i + 0; i < numObservers_; ++i) {
+        for (int i = 0; i < numObservers_; ++i) {
             observers_[i]->onNotify(entity, event);
         }
     }
@@ -130,7 +130,7 @@ public:
 
 Then, when the Physics class does something important, it can call the notify function that will explore the observers list and let them know what happened. It's up to the observers to do something with this information.
 
-It is relevant to note that inheriting the ```Subject``` class is not strictly necessary. In this case the ```Physics``` can hold an instance of the ```Subject``` class to avoid multiple inheritance.
+It is relevant to note that inheriting the ```Subject``` class is not strictly necessary. In this case the ```Physics``` class can hold an instance of the ```Subject``` class to avoid multiple inheritance.
 
 ---
 
@@ -140,7 +140,7 @@ It is relevant to note that inheriting the ```Subject``` class is not strictly n
 
 "Events", "Messages" and "Data Binding" might be systems with higher performance overhead than simpler operations. They involve things like queueing or performing dynamic memory allocations.
 
-But no. With this pattern is just not the case. Sending notifications is just walking linearly through an array to call the observer's notify function. It could be worrisome if the function is virtual but, again, it doesn't need to be.
+But no. With this pattern, that is just not the case. Sending notifications is just walking linearly through an array to call the observer's notify function. It could be worrisome if the function is virtual, but in practice it doesn't need to be.
 
 Yes, it might be slower than embedded calls inside the code, but the tradeoff of clean and organized code is higher than an object access even in critically performative sections.
 
@@ -150,7 +150,7 @@ Many game developers have moved into garbage collected languages. Even in C++ en
 
 But even in new tech and specially in performance critical software like videogames, memory allocation still matters and it needs to be managed carefully. 
 
-Dynamic allocation takes time and so does reclaiming that memory and maintaining fragmentation at line. In real implementations of this pattern the list of observers is most likely to be a list that grows and shrinks over time.
+Dynamic allocation takes time, and so does reclaiming that memory and managing fragmentation over time. In real implementations of this pattern the list of observers is most likely to be a list that grows and shrinks over time.
 
 So there's two things we can do to manage this better. Making the observers a linked list and allocating the nodes in a pool at the beginning of the game.
 
@@ -178,11 +178,11 @@ private:
 ```
 We're also making ```Subject``` a friend class so we can easily access observers to add and remove.
 
-Finally, managing observers is no different from managing a normal linked list like in the classes of computer science we all had and learn.
+Finally, managing observers is no different from managing a normal linked list, like in the computer science classes many of us took.
 
 ```cpp
 void Subject::addObserver(Observer* newObserver) {
-    observer->next_ = head_;
+    newObserver->next_ = head_;
     head_ = newObserver;
 }
 ```
@@ -202,6 +202,14 @@ The way you avoid dynamic allocation here is simple: since all of those nodes ar
 
 It's an observer's job to unregister itself from any subjects when it gets deleted. The observer does know which subjects it's observing, so it's usually just a matter of adding a ```removeObserver()``` call to its destructor.
 
-If you don't want to leave observers hanging when a subject gives up the ghost, that's easy to fix. Just have the subject send the final "dying breath" notification right before it gets destroyed. That way, any observer can receive that and take whatever action it thinks is appropiate. 
+This is an important safety point: the order in which subjects and observers are destroyed matters. If an observer is deleted while still registered, the subject may later try to notify a dangling pointer. If a subject is destroyed first, observers must be able to handle the fact that their subject is gone.
 
-Even better is to make observers automatically unregister themselves from every subject when they get destroyed. If you implement the logic for that once in your base ```Observer``` class, everyone using it doesn't have to remember to do it. 
+A common safe strategy is:
+- Observers unregister from subjects during their own destruction.
+- Subjects either remove themselves from observers or send a final "dying breath" notification before they are destroyed.
+
+If you don't want to leave observers hanging when a subject gives up the ghost, that's easy to fix. Just have the subject send the final "dying breath" notification right before it gets destroyed. That way, any observer can receive that and take whatever action it thinks is appropriate.
+
+Even better is to make observers automatically unregister themselves from every subject when they get destroyed. If you implement the logic for that once in your base ```Observer``` class, everyone using it doesn't have to remember to do it.
+
+A robust implementation also includes a way for observers to detect invalid subjects, or for subjects to clear their observer list during teardown. That removes the need for callers to remember the exact destruction order and makes the pattern safer in larger systems.
