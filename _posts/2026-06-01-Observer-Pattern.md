@@ -190,7 +190,7 @@ void Subject::addObserver(Observer* newObserver) {
 
 An improvement to the list implementation can be having, instead of a list of ```Observer```, a list of ```Node``` objects that hold a pointer to an observer.   
 
-![Pattern Picture](/assets/images/patterns/observer-nodes.png)
+![Pattern Picture](/assets/images/Patterns/observer-nodes.png)
 
 Since multiple nodes can all point to the same observer, that means an observer can be in more than one subject's list at the same time. 
 
