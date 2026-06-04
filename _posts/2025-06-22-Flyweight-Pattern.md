@@ -1,6 +1,6 @@
 ---
 title: "Patterns: Flyweight"
-description: "Overview and explanation about the Flyweight pattern oriented to videogames"
+description: "This pattern provides help when dealing with repetitive objects sharing common aspects of them"
 sidebar:
   nav: "projects"
 categories:

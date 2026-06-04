@@ -1,6 +1,6 @@
 ---
 title: "Patterns: Command"
-description: "Overview and explanation about the Command pattern oriented to videogames"
+description: "The Command Pattern makes certain software operations more flexible and customizable"
 sidebar:
   nav: "projects"
 categories:

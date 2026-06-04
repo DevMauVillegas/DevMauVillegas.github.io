@@ -1,6 +1,6 @@
 ---
 title: "Patterns: Observer"
-description: "Overview and explanation about the Observer pattern oriented to videogames"
+description: "The Observer Pattern is the architectural solution to the need of communicating unrelated objects without coupling them (too much)"
 sidebar:
   nav: "projects"
 categories:
@@ -8,7 +8,7 @@ categories:
   - Learning Content
   - blog
 tags:
-  - GameProgramming Patterns
+  - Game Programming Patterns
   - Educational
   - Learning Content
 ---
